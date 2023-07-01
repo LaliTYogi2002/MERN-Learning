@@ -1,0 +1,36 @@
+body{
+  background-color: #2D4356;
+  color: #27E1C1;
+  font-family: 'Kalam', cursive;
+}
+h1 {
+  font-size: 100px;
+}
+
+#result{
+  display:  flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#players{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 4fr;
+  column-gap: 50px;
+  text-align: center;
+}
+
+.grid p{
+  font-size: 40px;
+}
+
+.none{
+  display: none;
+}
